@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitle: Tek's Digital Garden
+  pageTitleSuffix: "- Tek's Digital Garden"
   enableSPA: true
   enablePopovers: true
   analytics:
