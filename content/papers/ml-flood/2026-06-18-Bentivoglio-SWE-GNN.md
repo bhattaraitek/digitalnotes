@@ -1,6 +1,6 @@
 ---
 title: SWE-GNN
-draft: true
+draft: false
 date: 20126-06-18
 tags: 
     - flooding
