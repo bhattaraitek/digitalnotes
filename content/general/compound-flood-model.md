@@ -35,6 +35,8 @@ Related notes:
 - [Source 1](https://link-here.com)
 - [Source 2](https://link-here.com)
 
+> This is block quotes
+
 ## My Thoughts
 
 Your personal reflections, questions, or ideas about this topic.
