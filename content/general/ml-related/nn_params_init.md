@@ -1,7 +1,7 @@
 ---
 title: Parameter Initialization in NN
 date: 2026-06-19
-draft: true
+draft: false
 ---
 
 - Bad initialisation of parameters results in dead neurons, and model stops learning from early stage.The weights never gets updated because the signal (gradient) couldn't flow backward through the "dead" neurons.
