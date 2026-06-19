@@ -12,10 +12,9 @@ tags:
 
 # Summary
 - [Bentivoglio et al. (2023)](https://doi.org/10.5194/hess-27-4227-2023) implements GNN in modeling dyke breach flooding in synthetic randomly generated conditions.
-- Domain is relatively smaller
-- Proposed model works well
+- Domain is relatively smaller.
+- Proposed model works well.
 - Application to raifall, storm surge, discharge generated flood remains as future work.
-
 
 # Background/Problem statement
 - Numerical modeling is accurate but computationally expensive
