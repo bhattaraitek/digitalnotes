@@ -246,8 +246,9 @@ plugins:
     enabled: true
     options:
       limit: 10
+      showTags: false
     layout:
-      position: left
+      position: afterBody
       priority: 60
 
   - source: github:quartz-community/spacer

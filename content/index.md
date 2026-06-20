@@ -1,5 +1,9 @@
 ---
 title: Tek's Digital Garden
+tags:
+  - index
+draft: false
+hide: true
 ---
 
 # Welcome to my Digital Garden 🌱
@@ -10,7 +14,7 @@ This is my personal knowledge base — a collection of interconnected notes, res
 
 ## What you'll find here
 
-- [[Flood Modeling]] — compound flood simulation research
+- [[SWE-GNN]] — compound flood simulation research
 - [[Remote Sensing]] — earth observation and satellite data
 - [[Machine Learning]] — deep learning methods in hydrology
 - [[Research Notes]] — paper summaries and ideas
