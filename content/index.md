@@ -14,10 +14,10 @@ This is my personal knowledge base — a collection of interconnected notes, res
 
 ## What you'll find here
 
-- [[SWE-GNN]] — compound flood simulation research
-- [[Remote Sensing]] — earth observation and satellite data
-- [[Machine Learning]] — deep learning methods in hydrology
-- [[Research Notes]] — paper summaries and ideas
+- Flood modeling — compound flood simulation research
+- Remote Sensing — earth observation and satellite data
+- Machine Learning — deep learning methods in hydrology
+- Research Notes — paper summaries and ideas
 
 ## How to navigate
 
@@ -25,6 +25,6 @@ This is my personal knowledge base — a collection of interconnected notes, res
 - Click any `[[link]]` to jump to a related note
 - Use the **search** bar to find specific topics
 
----
+<!-- ---
 
-*The garden is always growing — some notes are seeds, others are fully grown trees.*
+*The garden is always growing — some notes are seeds, others are fully grown trees.* -->

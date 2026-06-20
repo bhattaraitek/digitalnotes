@@ -40,6 +40,7 @@ configuration:
         tertiary: "#84a59d"
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
+        
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -50,6 +51,7 @@ plugins:
         - git
         - filesystem
     order: 10
+
   - source: github:quartz-community/syntax-highlighting
     enabled: true
     options:
@@ -58,29 +60,35 @@ plugins:
         dark: github-dark
       keepBackground: false
     order: 20
+
   - source: github:quartz-community/obsidian-flavored-markdown
     enabled: true
     options:
       enableInHtmlEmbed: false
       enableCheckbox: true
     order: 30
+
   - source: github:quartz-community/github-flavored-markdown
     enabled: true
     order: 40
+
   - source: github:quartz-community/table-of-contents
     enabled: true
     order: 50
     layout:
       position: right
       priority: 30
+
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
       markdownLinkResolution: shortest
     order: 60
+
   - source: github:quartz-community/description
     enabled: true
     order: 70
+
   - source: github:quartz-community/latex
     enabled: true
     options:
@@ -139,19 +147,24 @@ plugins:
 
   - source: github:quartz-community/favicon
     enabled: true
+
   - source: github:quartz-community/og-image
     enabled: true
+
   - source: github:quartz-community/cname
     enabled: true
+
   - source: github:quartz-community/canvas-page
     enabled: true
+
   - source: github:quartz-community/content-page
     enabled: true
+
   - source: github:quartz-community/folder-page
-    enabled: true
+    enabled: false
 
   - source: github:quartz-community/tag-page
-    enabled: true
+    enabled: false
 
   # - source: github:quartz-community/explorer
   #   enabled: true
@@ -227,7 +240,7 @@ plugins:
       condition: not-index
 
   - source: github:quartz-community/comments
-    enabled: false
+    enabled: true
     options:
       provider: giscus
       options: {}
@@ -237,10 +250,10 @@ plugins:
 
   - source: github:quartz-community/footer
     enabled: true
-    options:
-      links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+    # options:
+    #   links:
+    #     GitHub: https://github.com/jackyzha0/quartz
+    #     Discord Community: https://discord.gg/cRFFHYye7t
 
   - source: github:quartz-community/recent-notes
     enabled: true
