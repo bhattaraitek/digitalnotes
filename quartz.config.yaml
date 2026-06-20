@@ -247,6 +247,7 @@ plugins:
     options:
       limit: 10
       showTags: false
+      filter: "note => note.slug !== 'index'"
     layout:
       position: afterBody
       priority: 60
@@ -273,7 +274,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5
