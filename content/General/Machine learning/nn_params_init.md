@@ -1,5 +1,7 @@
 ---
 title: Parameter initialization
+aliases:
+    - Parameter initialization
 date: 2026-06-19
 draft: false
 tags:
@@ -9,6 +11,7 @@ tags:
 ---
 
 - Bad initialisation of parameters results in dead neurons, and model stops learning from early stage.The weights never gets updated because the signal (gradient) couldn't flow backward through the "dead" neurons.
+<!-- - This relates to my work on [[2026-06-18-Bentivoglio-SWE-GNN|SWE-GNN]] which uses [[deep learning]] for flood modeling. -->
 
 ## Some common initialization techniques in DL
 - **Zero initialization**: All weights and biases are initialized to zero. Not common. Leads to symmetry in the gradients.

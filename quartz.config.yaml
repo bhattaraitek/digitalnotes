@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Tek's Digital Garden
+  pageTitle: ""
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -102,14 +102,18 @@ plugins:
   - source: github:quartz-community/hard-line-breaks
     enabled: false
     order: 90
+
   - source: github:quartz-community/ox-hugo
     enabled: false
     order: 91
+
   - source: github:quartz-community/roam
     enabled: false
     order: 92
+
   - source: github:quartz-community/fonts
     enabled: true
+
   - source: github:quartz-community/remove-draft
     enabled: true
 
@@ -161,23 +165,25 @@ plugins:
     enabled: true
 
   - source: github:quartz-community/folder-page
-    enabled: false
+    enabled: true
 
   - source: github:quartz-community/tag-page
-    enabled: false
-
-  # - source: github:quartz-community/explorer
-  #   enabled: true
-  #   layout:
-  #     position: left
-  #     priority: 50
+    enabled: true
 
 
   - source: github:quartz-community/graph
     enabled: true
     layout:
       position: right
-      priority: 10
+      priority: 5
+
+  - source: github:quartz-community/explorer
+    enabled: true
+    layout:
+      position: left
+      priority: 50
+
+
 
   - source: github:quartz-community/search
     enabled: true
@@ -240,7 +246,7 @@ plugins:
       condition: not-index
 
   - source: github:quartz-community/comments
-    enabled: true
+    enabled: false
     options:
       provider: giscus
       options: {}
@@ -260,6 +266,10 @@ plugins:
     options:
       limit: 10
       showTags: false
+      excludeTypes:
+        - tag
+        - folder
+        - Not Found
     layout:
       position: afterBody
       priority: 60
@@ -272,6 +282,7 @@ plugins:
       position: left
       priority: 25
       display: mobile-only
+
   - source: github:quartz-community/bases-page
     enabled: true
     options: {}
@@ -294,6 +305,7 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+      
 layout:
   groups:
     toolbar:
@@ -306,7 +318,19 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content:
+      positions:
+        left:
+          - page-title
+          - spacer
+          - search
+          - darkmode
+          - reader-mode
+          - explorer
+        right:
+          - graph
+          - table-of-contents
+          - backlinks
     folder:
       exclude:
         - reader-mode
