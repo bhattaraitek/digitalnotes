@@ -3,7 +3,7 @@ title: Tek's Digital Garden
 tags:
   - index
 draft: false
-hide: true
+unlisted: true
 ---
 
 # Welcome to my Digital Garden 🌱
