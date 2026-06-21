@@ -1,5 +1,5 @@
 ---
-title: Multi-scale GNN in for flood modelling
+title: Multi-scale GNN for flood modelling
 aliases:
     - SWE-GNN
     - swe-gnn
