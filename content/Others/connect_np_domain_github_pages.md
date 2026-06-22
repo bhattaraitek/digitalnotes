@@ -1,7 +1,7 @@
 ---
 title: Connecting .np domain to github pages
 date: 2026-06-20
-draft: true
+draft: false
 tags:
     - website
     - github

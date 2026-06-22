@@ -3,7 +3,7 @@ title: Multi-scale GNN for flood modelling
 aliases:
     - SWE-GNN
     - swe-gnn
-draft: false
+unlisted: true
 date: 2026-06-20
 tags: 
     - flooding
