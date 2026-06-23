@@ -125,8 +125,10 @@ $$
     - $\tau = 0.3 m $
         - $73.44 \pm 9.28$ 
 
+>[!note]
 > MAE and RMSE increase over time due to the evaluation of both metrics via a spatial average, which implies that, in the first time steps, where the domain is mostly dry, the error will naturally be lower.
 
+>[!note] Finding
 > GNN valuable tool for spatio-temporal surrogate modelling of floods.
 
 
