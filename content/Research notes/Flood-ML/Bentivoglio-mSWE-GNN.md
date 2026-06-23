@@ -1,7 +1,6 @@
 ---
 title: mSWE-GNN
-aliases:
-    - mSWE-GNN
+draft: false
 date: 2026-06-20
 tags: 
     - flooding

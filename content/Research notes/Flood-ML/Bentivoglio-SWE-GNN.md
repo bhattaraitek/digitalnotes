@@ -1,8 +1,5 @@
 ---
 title: SWE-GNN
-aliases:
-    - SWE-GNN
-    - swe-gnn
 draft: false
 date: 2026-06-18
 tags: 
@@ -13,13 +10,6 @@ tags:
     - deep learning
     - machine learning
 ---
-<style>
-article {
-  font-size: 1.5rem;
-  line-height: 1.9;
-}
-</style>
-
 # Summary
 - [Bentivoglio et al. (2023)](https://doi.org/10.5194/hess-27-4227-2023) implements GNN in modeling dyke breach flooding in synthetic randomly generated conditions.
 - Domain is relatively smaller.
@@ -108,11 +98,6 @@ $$
     - To test generalizability of the model to large unseen domains
 
 - Temporal resolution of ML model: 1 h
-
-
-
-# Metrics
-- RMSE, MAE and CSI
 
 # Performance
 - **RMSE**
