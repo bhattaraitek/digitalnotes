@@ -13,12 +13,17 @@ tags:
     - deep learning
     - machine learning
 ---
+<style>
+article {
+  font-size: 1.5rem;
+  line-height: 1.9;
+}
+</style>
 
 # Summary
 - [Bentivoglio et al. (2023)](https://doi.org/10.5194/hess-27-4227-2023) implements GNN in modeling dyke breach flooding in synthetic randomly generated conditions.
 - Domain is relatively smaller.
 - Proposed model works well.
-<!-- - The parameter initialization approach from [[nn_params_init|Parameter initialization]] is used in this model. -->
 - Application to raifall, storm surge, discharge generated flood remains as future work.
 
 # Background/Problem statement
@@ -128,4 +133,5 @@ $$
 # Limitations
 - Constant boundary condition. In reality, boundary condition varies with time. In case of compound flood modeling 
 we need to consider time varying boundary condition.
+> This work is further extended to [[Bentivoglio-mSWE-GNN.md|Multi-scale SWE GNN]].
 

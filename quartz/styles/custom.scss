@@ -1,3 +1,16 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+:root {
+  --bodyFont: 1.1rem;
+}
+
+article p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+article li {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
