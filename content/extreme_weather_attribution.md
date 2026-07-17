@@ -4,6 +4,7 @@ draft: False
 tags:
     - climate
     - extreme events
+    - flooding
     - flood
     - climate change
 date: 2026-07-17
@@ -41,7 +42,7 @@ Several decades of research has already indicated that anthropogenic climate cha
 - In the Global South, insuficient historical obsevered data is limiting EEA and EEIA studies.
 
 # Todos for researchers
-- Develop and improve methods, impact response functions, and process-based models  with particular focus on hazards and regions that lack reliabile data and tools.
+- Develop and improve methods, impact response functions, and process-based models  with particular focus on hazards and regions that lack reliable data and tools.
 
 # References
 - [NASEM Attribution of Extreme Weather and Climate Events Report Highlights](https://nap.nationalacademies.org/resource/28590/Report_Highlights_Attribution_Extreme_Weather.pdf)
