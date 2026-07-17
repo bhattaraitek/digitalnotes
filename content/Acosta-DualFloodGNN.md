@@ -11,7 +11,7 @@ tags:
 ---
 
 # Summary
-- DUALFloodGNN is proposed which embeds physical constaints at both global and local scales through explicit loss terms.
+- [DUALFloodGNN](https://arxiv.org/pdf/2512.23964v1) is proposed which embeds physical constaints at both global and local scales through explicit loss terms.
 - Jointly predicts both nodes and edge features.
 
 # Gap it is addressing
