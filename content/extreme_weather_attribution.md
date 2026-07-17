@@ -44,5 +44,6 @@ Several decades of research has already indicated that anthropogenic climate cha
 - Develop and improve methods, impact response functions, and process-based models  with particular focus on hazards and regions that lack reliabile data and tools.
 
 # References
-- [NASEM Attributionf Extreme Weather and Climate Events Report Highlights](https://nap.nationalacademies.org/resource/28590/Report_Highlights_Attribution_Extreme_Weather.pdf)
+- [NASEM Attribution of Extreme Weather and Climate Events Report Highlights](https://nap.nationalacademies.org/resource/28590/Report_Highlights_Attribution_Extreme_Weather.pdf)
+- [Full Report](https://www.nationalacademies.org/read/28590)
 
