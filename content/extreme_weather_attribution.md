@@ -5,7 +5,7 @@ tags:
     - climate
     - extreme events
     - flooding
-    - flood
+    - floods
     - climate change
 date: 2026-07-17
 ---
